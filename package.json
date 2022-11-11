@@ -1,0 +1,14 @@
+{
+  "name": "extension-name",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "git archive -o $npm_package_name-$npm_package_version.zip HEAD:app",
+    "buildw": "git archive -o \"%npm_package_name%-%npm_package_version%.zip\" HEAD:app"
+  },
+  "standard": {
+    "globals": [
+      "chrome"
+    ]
+  }
+}

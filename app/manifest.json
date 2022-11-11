@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDesc__",
+  "version": "1.0.0",
+
+  "default_locale": "en",
+
+  "icons": {
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "popup.html",
+    "default_title": "__MSG_appTooltip__"
+  },
+
+  "background": {
+    "scripts": ["scripts/event.js"],
+    "persistent": false
+  },
+
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'" ,
+
+  "permissions": [
+    "tabs"
+  ]
+}

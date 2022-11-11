@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Gitpod Close Tab",
+    "description": "Name of the application."
+  },
+  "appDesc": {
+    "message": "Support Close Tab Keyboard Shortcut in Gitpod VSCode Web Editor",
+    "description": "Description of the application."
+  },
+  "appTooltip": {
+  	"message": "Open Extension Shortcut Settings",
+  	"description": "Title of the popup icon."
+  }
+}
