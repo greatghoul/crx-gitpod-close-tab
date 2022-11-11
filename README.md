@@ -1,4 +1,7 @@
-## Chrome Extension Template
+## Gitpod Close Tab
+
+Support closing gitpod vscode web's active editor using cmd+w or ctrl+w, if no active editor or it's not gitpod vscode page, will close the browser tab instead.
+
 
 ## Scripts
 
@@ -10,8 +13,13 @@ Build the package on windows
 
     npm run buildw
 
-## Usage
+## Install
 
-Install the extension and navigate to [chrome://extensions/shortcuts](chrome://extensions/shortcuts) to setup ctrl+w or cmd+w to "Close Active Editor"
+[How to install the unpacked extension in Chrome - Webkul Blog](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)
+
+1. Go to extensions page <chrome://extensions/>
+2. Ensure Developer Mode is open
+3. Click "Load unpacked" button and select `app` folder 
+4. Go to <chrome://extensions/shortcuts> and setup ctrl+w or cmd+w to "Close Active Editor"
 
 ![](https://i.imgur.com/9ll3ByG.png)
