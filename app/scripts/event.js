@@ -1,7 +1,7 @@
 function attemptToCloseActiveEditor () {
   try {
     const isWorkbench = document.querySelector("#vscode-workbench-web-configuration");
-    const activeTab = document.querySelector(".tab.active");
+    const activeTab = document.querySelector(".editor-group-container.active .tab.active");
     if (isWorkbench && activeTab) {
       activeTab.querySelector(".action-item").click();
       return true;
