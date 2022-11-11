@@ -1,4 +1,7 @@
-## Chrome Extension Template
+## Gitpod Close Tab
+
+Support closing gitpod vscode web's active editor using cmd+w or ctrl+w, if no active editor or it's not gitpod vscode page, will close the browser tab instead.
+
 
 ## Scripts
 
