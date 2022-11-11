@@ -22,6 +22,20 @@
   },
 
   "permissions": [
-    "tabs"
-  ]
+    "activeTab",
+    "tabs",
+    "commands",
+    "scripting"
+  ],
+
+  "commands": {
+    "close-editor": {
+      "suggested_key": {
+        "default": "Ctrl+W",
+        "mac": "Command+W"
+      },
+      "description": "Close Active Editor",
+      "global": false
+    }
+  }
 }
